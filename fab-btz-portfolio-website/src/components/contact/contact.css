@@ -1,0 +1,31 @@
+/* scroll__down */
+.scroll__up {
+    position: absolute;
+    right: 2.2rem;
+    bottom: -570vh;
+    transform: rotate(90deg) scale(1.5);
+    font-weight: 300;
+    font-size: 0.9rem;
+}
+
+.scroll__up:hover {
+    transform: scale(2.5);
+}
+
+/* MEDIA QUERIES (MEDIUM DEVICE) */
+@media screen and (max-width: 1024px) { 
+    /* .contact {
+        height: 68vh;
+    } */
+}
+
+/* MEDIA QUERIES (SMALL DEVICE) */
+@media screen and (max-width: 600px) { 
+    /* .contact {
+        height: 100vh;
+    } */
+
+    .scroll__up {
+       display: none;
+    }
+}

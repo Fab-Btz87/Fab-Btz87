@@ -1,7 +1,7 @@
 header {
     height: 100vh;
-    padding-top: 7rem;
-    overflow: hidden;
+    padding-top: 5rem; /*2rem*/
+    overflow: auto;/*auto crea una nueva caja con scroll - hidden*/
 }
 
 .header__container {
