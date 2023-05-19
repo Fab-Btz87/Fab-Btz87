@@ -33,7 +33,7 @@ const About = () => {
             <article className="about__card">
               <BsFolderCheck className="about__icon" />
               <h5>Projects</h5>
-              <small>20+ completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
             <p>
